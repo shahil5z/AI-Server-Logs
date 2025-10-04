@@ -1,4 +1,8 @@
-# AI Server Logs 
+# AI Server Logs
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-blue)
+![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 Turn boring server/CLI logs into **Detective-Style Stories** using AI.  
 This project uses the **OpenAI API** to read raw log files and generate clear, human-readable narratives that explain what happened step by step.  
@@ -77,15 +81,9 @@ python log_to_story.py
 - Developed and tested on **Ubuntu 22.04 LTS**
 - Python 3.11
 - Virtual environment using `venv`
-
----
+- OpenAI API key required (stored in `.env`)
 
 ## License
 
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-![OpenAI](https://img.shields.io/badge/OpenAI-API-blue)
-![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-orange)
-![Python Version](https://img.shields.io/badge/python-3.11-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
