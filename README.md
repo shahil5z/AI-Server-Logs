@@ -1,6 +1,6 @@
 # AI Server Logs 
 
-Turn boring server/CLI logs into **detective-style stories** using AI.  
+Turn boring server/CLI logs into **Detective-Style Stories** using AI.  
 This project uses the **OpenAI API** to read raw log files and generate clear, human-readable narratives that explain what happened step by step.  
 
 ---
@@ -9,19 +9,20 @@ This project uses the **OpenAI API** to read raw log files and generate clear, h
 - Converts raw logs into **chronological stories**
 - Uses **OpenAI GPT model** for smart, readable output
 - Works with any `.txt` log file
-- Lightweight & easy to extend  
+- Lightweight & easy to extend
 
 ---
 
+```
 ## Project Structure
-│── venv/ # Virtual environment
-│── .env # Contains your API key
-│── sample_logs.txt # Example log file
-│── log_to_story.py # Main script
-│── README.md # Documentation
 
+│── venv/                # Virtual environment
+│── .env                 # Contains your API key
+│── sample_logs.txt      # Example log file
+│── log_to_story.py      # Main script
+│── README.md            # Documentation
+```
 ---
-
 ## Setup Instructions
 
 ### 1. Clone / Open the Project
@@ -48,7 +49,6 @@ Create a .env file in the project root:
 ```
 OPENAI_API_KEY=your_api_key_here
 ```
----
 
 ## Usage
 
@@ -70,10 +70,22 @@ python log_to_story.py
 
 ### 3. Output Sample Image:
 
--![image alt]()
+-![image alt](https://github.com/shahil5z/AI-Server-Logs/blob/98d3191ea8f9df4cdd1c29a1b317fc94cd659ec8/Sample%20IMG/1.png)
+
+## Environment
+
+- Developed and tested on **Ubuntu 22.04 LTS**
+- Python 3.11
+- Virtual environment using `venv`
 
 ---
 
 ## License
 
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+![OpenAI](https://img.shields.io/badge/OpenAI-API-blue)
+![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-orange)
+![Python Version](https://img.shields.io/badge/python-3.11-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
